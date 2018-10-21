@@ -1,0 +1,62 @@
+h2,h3,h5 {
+    /* padding: 5px; */
+    font-size: 28pt;
+    font-weight: bold;
+    color: #E8E86B;
+}
+
+h1 {
+    /* font-family: 'Carter One', cursive; */
+    font-family: 'Bungee Inline', cursive;
+    font-size: 42pt;
+    font-weight: 925;
+    color: #E8E86B;
+    letter-spacing: 3px;
+}
+
+#winwin {
+    letter-spacing: 35px;
+}
+
+h4 {
+    letter-spacing: 5px;
+    font-size: 28pt;
+    font-weight: bold;
+    color: #E8E86B;
+}
+
+h6 {
+    font-size: 38pt;
+    font-weight: bold;
+    color: #66C010;
+}
+
+p {
+    padding: 5px;
+    font-size: 28pt;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 2px 2px #E8E86B;
+
+}
+
+body {
+    background: URL("../images/seattledrawing.jpg");
+    background-size: 1612.5px 1300.5px;
+}
+
+#top {
+    text-align: center;
+}
+
+#pressKeyTryAgain, 
+#gameover-image, 
+#youwin-image { 
+    display: none;
+    width: 220px;
+    height: 220px;
+}
+
+#container {
+    max-width: 860px;
+}

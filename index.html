@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game!</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Carter+One|Faster+One|Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="top">
+        <h1>Hangman</h1>
+        <h3>A Seattle-themed word-guess game<h3>
+                <p>Use the alphabet & space to guess the Seattle-themed word!<p>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3 id="winwin">Wins:</h3>
+                <img id="youwin-image" src="assets/images/you-win.png" alt="Winning Image">
+                <img id="gameover-image" src="assets/images/gameover.png" alt="Game Over Image">
+                <h2 id="pressKeyPlayAgain">Press Any Key to Play Again!</h2>
+                <img id="hangmanImage" src="" alt="">
+            </div>
+            <div class="col-sm-6">
+                <h5 id="totalWins"></h5>
+                <h3>Current Word:</h3>
+                <h4 id="currentWord"></h4>
+                <h3>Guesses Remaining:</h3>
+                <h6 id="remainingGuesses"></h6>
+                <h3>Letters Guessed:</h3>
+                <h3 id="guessedLetters"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        resetGame();
+        updateDisplay();
+
+    </script>
+
+</body>
+
+</html>
