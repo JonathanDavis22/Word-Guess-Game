@@ -1,0 +1,57 @@
+<style>
+
+    .orange {
+        color: orange;
+    }
+
+    .middle {
+        text-align: center;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .blue {
+        color: blue;
+    }
+
+    .green {
+        color: green;
+    }
+
+    .large {
+        font-size: 200%;
+    }
+
+    .small {
+        font-size: 50%;
+    }
+
+    .styledFont {
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .styledFont2 {
+        font-family: Tahoma, sans-serif
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .whackyFont {
+        font-size: 150%;
+        color: orange;
+        font-weight: bold;
+    }
+
+    .border {
+        border-style: solid;
+        color: orange;
+        border-width: 10px;
+
+    }
+
+</style>

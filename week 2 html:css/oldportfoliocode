@@ -1,0 +1,109 @@
+                <div class="portfolio-image-container">
+                    <div>
+                        <img src="assets/images/cowkid.jpg" class="cowkidPic" alt="cowkid">
+                        <div class="text-block">
+                            <h3><a href="https://static1.squarespace.com/static/5b0e319d620b8515daa51bbc/t/5b53b884562fa73754e1fc7e/1532213386098/Sad+Cowboy.pdf" download>Sad Cowboy</h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/images/bath.png" class="bathtubPic" alt="bathPic">
+                        <div class="text-block2">
+                            <h3><a href="https://static1.squarespace.com/static/5b0e319d620b8515daa51bbc/t/5b15a7a388251b408d3aa2d5/1528145850189/Scary+Bathtub+Story.pdf" download>Scary Bathtub Story</h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/images/push.png" class="pushPic" alt="pushPic">
+                        <div class="text-block3">
+                            <h3><a href="https://static1.squarespace.com/static/5b0e319d620b8515daa51bbc/t/5b4bbcb188251b376ec3ec8e/1531690162905/Push+Alert.pdf" download>Push Alert</h3>
+                        </div>
+                </div>
+
+
+
+.text-block {
+    position: absolute;
+    font-size: 10pt;
+    letter-spacing: 2px;
+    left: 132px;
+    top: 180px;
+    background-color: #222;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.text-block2 {
+    position: absolute;
+    font-size: 10pt;
+    left: 395px;
+    top: 180px;
+    background-color: #222;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.text-block3 {
+    position: absolute;
+    font-size: 10pt;
+    letter-spacing: 2px;
+    left: 700px;
+    top: 180px;
+    background-color: #222;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.text-block4 {
+    position: absolute;
+    font-size: 10pt;
+    letter-spacing: 2px;
+    left: 58px;
+    top: 460px;
+    background-color: #222;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.cowkidPic {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    float: left;
+    /* position: absolute; */
+    margin: 20px;
+    margin-left: 80px;
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        );
+}
+
+.bathtubPic {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    float: left;
+    /* position: absolute; */
+    margin: 20px;
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    );
+}
+
+.pushPic {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    /* float: left; */
+    /* position: absolute; */
+    margin: 20px;
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    );
+}

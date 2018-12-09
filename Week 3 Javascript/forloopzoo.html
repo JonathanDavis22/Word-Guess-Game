@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Loops</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script type="text/javascript">
+
+      // Array of farm animals.
+
+      var animals = ["chickens", "pigs", "cows", "horses", "ostriches", "hyenas", "cheetahs", "lions"];
+      // This for loop says: let's create a counter, represented by i for integer, and start it at 0.
+      // Next, as long as this is less than the animals array, count, then increment the number, and run again. 
+      // Then, console.log the animals array of the integer i for each time the loop is run.
+      for (var i = 0; i < animals.length; i++) {
+        console.log(animals[i]);
+
+        if (animals[i].charAt(0) === "c") {
+            console.log('starts with a c!');
+        }
+    }
+
+
+    </script>
+    
+  </body>
+</html>

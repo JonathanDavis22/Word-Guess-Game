@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>NYT</title>
+</head>
+
+<body>
+
+    <div class="articleField"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  var searchTerm = $(this).attr("#articleField")
+  
+  $("button").on("click", function() {
+    var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q="
+    + searchTerm + "&api-key=8db82b2b837b42a1a323c7a85486173b";
+
+    $.ajax({
+    url: queryURL,
+    method: "GET"
+    }).then(function(responsePromise) {
+    var results = responsePromise.response.docs;
+
+    for (var i = 0; i < results.length; i++) {
+        var articleDiv = $("<div>");  
+        
+    };
+    });
+
+  });
+  
+  </script>
+</body>
+
+</html>

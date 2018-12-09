@@ -1,0 +1,31 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <h1>Open the console!</h1>
+
+    <script>
+
+        function primeCheck(number) {
+            for (var i = 2; i < number; i++) {
+                if (number % i === 0) {
+                    return false;
+            }
+        }
+
+        return number > 1;
+    };
+
+    var isPrime = primeCheck(345);
+    console.log(isPrime);
+
+    </script>
+
+</body>
+</html>

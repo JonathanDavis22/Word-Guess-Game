@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/af.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Employee Data Management</h1>
+                        <p class="lead">A Comprehensive Directory of Employee Billable Hours</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="employee-result">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">Current Employees</div>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Employee Name</th>
+                                <th scope="col">Role</th>
+                                <th scope="col">Start Date</th>
+                                <th scope="col">Months Worked</th>
+                                <th scope="col">Monthly Rate ($)</th>
+                                <th scope="col">Total Billed ($)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="employee-data">
+                            <tr>
+                                <th scope="row">Mac Hollister</th>
+                                <td>Badass</td>
+                                <td>10/13/1994</td>
+                                <td></td>
+                                <td>10000000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="employee-form">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        Add employee
+                    </div>
+                    <form>
+
+                        <div class="form-group">
+                            <label for="employeename">Employee Name</label>
+                            <input type="name" class="form-control" id="employeename" aria-describedby="NADA"
+                                placeholder="Employee name">
+                        </div>
+                        <div class="form-group">
+                            <label for="role">Role</label>
+                            <input type="name" class="form-control" id="role" aria-describedby="NADA" placeholder="Job title">
+                        </div>
+                        <div class="form-group">
+                            <label for="startdate">Start Date MM/DD/YYYY</label>
+                            <input type="name" class="form-control" id="startdate" aria-describedby="NADA" placeholder="04/20/1969">
+                        </div>
+                        <div class="form-group">
+                            <label for="monthlyrate">Monthly Rate</label>
+                            <input type="name" class="form-control" id="monthlyrate" aria-describedby="NADA"
+                                placeholder="420,420.00">
+
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <script type="text/javascript" src="JS_File.js"></script>
+
+</body>
+
+</html>

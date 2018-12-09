@@ -1,0 +1,57 @@
+a.link1 highlight:hover {
+    color: aquamarine;
+}
+
+#link2 {
+
+}
+
+#link3 {
+
+}
+
+button {
+    width: 10em;
+    height: 5em;
+    background-color: bisque;
+}
+
+button:hover {
+    background-color: beige;
+}
+
+button:active {
+    background-color: blue;
+}
+
+p:first-of-type {
+    background-color: greenyellow;
+}
+
+body {
+    text-indent: 10%;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+#thought2 {
+    text-indent: 10%;
+    /* font-family: 'Anton', sans-serif; */
+    font-size: 28pt;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+#thought3 {
+    text-indent: 10%;
+    /* font-family: 'Catamaran', sans-serif; */
+    font-size: 28pt;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
