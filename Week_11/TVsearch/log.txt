@@ -1,0 +1,86 @@
+show: Twin Peaks
+
+genres: Drama, Crime, Supernatural
+
+rating: 8.2
+
+network: Showtime
+
+summary: <p>Set in the fictional town of <b>Twin Peaks</b> in northeast Washington state, this is the story of FBI Special Agent Dale Cooper and his investigation of the murder of a popular local teenage schoolgirl, Laura Palmer.</p>
+
+show: Twin Peaks
+
+genres: Drama, Crime, Supernatural
+
+rating: 8.2
+
+network: Showtime
+
+summary: <p>Set in the fictional town of <b>Twin Peaks</b> in northeast Washington state, this is the story of FBI Special Agent Dale Cooper and his investigation of the murder of a popular local teenage schoolgirl, Laura Palmer.</p>
+
+show: Twin Peaks
+
+genres: Drama, Crime, Supernatural
+
+rating: 8.2
+
+network: Showtime
+
+summary: <p>Set in the fictional town of <b>Twin Peaks</b> in northeast Washington state, this is the story of FBI Special Agent Dale Cooper and his investigation of the murder of a popular local teenage schoolgirl, Laura Palmer.</p>
+
+show: Twin Peaks
+
+genres: Drama, Crime, Supernatural
+
+rating: 8.2
+
+network: Showtime
+
+summary: <p>Set in the fictional town of <b>Twin Peaks</b> in northeast Washington state, this is the story of FBI Special Agent Dale Cooper and his investigation of the murder of a popular local teenage schoolgirl, Laura Palmer.</p>
+
+actor: undefined
+
+birthday: undefined
+
+actor: undefined
+
+birthday: undefined
+
+actor: undefined
+
+birthday: undefined
+
+actor: Kyle MacLachlan
+
+birthday: 1959-02-22
+
+Actor: Kyle MacLachlan
+
+Birthday: 1959-02-22
+
+Gender: Male
+
+Country: United States
+
+URL: http://www.tvmaze.com/people/6238/kyle-maclachlan
+
+show: Twin Peaks
+
+genres: Drama, Crime, Supernatural
+
+rating: 8.2
+
+network: Showtime
+
+summary: <p>Set in the fictional town of <b>Twin Peaks</b> in northeast Washington state, this is the story of FBI Special Agent Dale Cooper and his investigation of the murder of a popular local teenage schoolgirl, Laura Palmer.</p>
+
+Actor: Kyle MacLachlan
+
+Birthday: 1959-02-22
+
+Gender: Male
+
+Country: United States
+
+URL: http://www.tvmaze.com/people/6238/kyle-maclachlan
+

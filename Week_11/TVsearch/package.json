@@ -1,0 +1,23 @@
+{
+  "name": "tvshow-app",
+  "version": "1.0.0",
+  "description": "A Node/JavaScript TV-search app.",
+  "main": "cli.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "tvmaze-api": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Jonathan Davis",
+  "license": "ISC"
+}
