@@ -1,6 +1,6 @@
-# Writer Clicky Game
+# Seattle Word-guess Game
 
-A literary-themed React clicky-game.
+A Seattle-themed hangman-style word-guess game.
 
 ## Use
 
